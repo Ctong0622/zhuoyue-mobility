@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zhuoyue Mobility</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-logo">Zhuoyue Mobility</div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="cars.html" data-i18n="nav.cars">Cars</a></li>
+        <li><a href="rent.html" data-i18n="nav.rent">Rent / Contact</a></li>
+      </ul>
+      <button class="lang-toggle" type="button">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 data-i18n="hero.title">Rent for a Better Tomorrow</h1>
+      <p data-i18n="hero.subtitle">Zhuoyue Mobility offers EV and new-energy vehicles for family travel and business trips.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="cars.html" data-i18n="hero.browseCars">Browse Cars</a>
+        <a class="btn btn-secondary" href="#why" data-i18n="hero.learnMore">Learn More</a>
+      </div>
+    </section>
+
+    <section class="section intro-section">
+      <p data-i18n="intro.text">
+        Zhuoyue Mobility is a car rental company focused on EV and new-energy vehicles.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 data-i18n="featured.title">Featured Vehicles</h2>
+      <div class="car-grid" id="featured-grid"></div>
+    </section>
+
+    <section class="section" id="why">
+      <h2 data-i18n="why.title">Why Choose Zhuoyue Mobility?</h2>
+      <div class="value-props">
+        <div class="value-prop">
+          <div class="icon">🌱</div>
+          <h3 data-i18n="why.eco.title">Eco-Friendly</h3>
+          <p data-i18n="why.eco.desc">An all EV and new-energy fleet for a cleaner ride.</p>
+        </div>
+        <div class="value-prop">
+          <div class="icon">👨‍👩‍👧‍👦</div>
+          <h3 data-i18n="why.family.title">Family Travel</h3>
+          <p data-i18n="why.family.desc">Spacious, comfortable vehicles for the whole family.</p>
+        </div>
+        <div class="value-prop">
+          <div class="icon">💼</div>
+          <h3 data-i18n="why.business.title">Business Travel</h3>
+          <p data-i18n="why.business.desc">Reliable vehicles for business trips.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <span><span data-i18n="footer.phone">Phone</span>: 138-0000-0000</span>
+      <span><span data-i18n="footer.wechat">WeChat</span>: ZhuoyueMobility</span>
+      <span><span data-i18n="footer.address">Address</span>: 123 Example Rd, Shanghai</span>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

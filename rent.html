@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rent / Contact — Zhuoyue Mobility</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-logo">Zhuoyue Mobility</div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="cars.html" data-i18n="nav.cars">Cars</a></li>
+        <li><a href="rent.html" data-i18n="nav.rent">Rent / Contact</a></li>
+      </ul>
+      <button class="lang-toggle" type="button">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1 data-i18n="rent.pageTitle">Rent a Vehicle</h1>
+      <p data-i18n="rent.fillOut">Fill out the form below and we'll contact you to confirm.</p>
+    </div>
+
+    <div class="rent-layout">
+      <form id="rent-form">
+        <div class="form-group">
+          <label for="vehicle-select" data-i18n="rent.selectVehicle">Select Vehicle</label>
+          <select id="vehicle-select" name="vehicle"></select>
+        </div>
+
+        <div class="form-group">
+          <label for="phone" data-i18n="rent.phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="idNumber" data-i18n="rent.idNumber">ID Number</label>
+          <input type="text" id="idNumber" name="idNumber" required />
+        </div>
+
+        <div class="form-group">
+          <label for="license" data-i18n="rent.license">Driver's License Number</label>
+          <input type="text" id="license" name="license" required />
+        </div>
+
+        <div class="form-group">
+          <label for="pickupLocation" data-i18n="rent.pickupLocation">Pickup Location</label>
+          <input type="text" id="pickupLocation" name="pickupLocation" required />
+        </div>
+
+        <div class="form-group">
+          <label for="dropoffLocation" data-i18n="rent.dropoffLocation">Drop-off Location</label>
+          <input type="text" id="dropoffLocation" name="dropoffLocation" required />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pickupDate" data-i18n="rent.pickupDate">Pickup Date &amp; Time</label>
+            <input type="datetime-local" id="pickupDate" name="pickupDate" required />
+          </div>
+
+          <div class="form-group">
+            <label for="dropoffDate" data-i18n="rent.dropoffDate">Return Date &amp; Time</label>
+            <input type="datetime-local" id="dropoffDate" name="dropoffDate" required />
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="consent" name="consent" required />
+          <span data-i18n="rent.consent">I agree my information will be used to process this rental request.</span>
+        </label>
+
+        <p class="form-note" data-i18n="rent.note">
+          After you submit, Zhuoyue Mobility will contact you by phone and confirm your rental via WeChat.
+        </p>
+
+        <button type="submit" class="btn btn-primary" data-i18n="rent.submit">Submit</button>
+
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <span><span data-i18n="footer.phone">Phone</span>: 138-0000-0000</span>
+      <span><span data-i18n="footer.wechat">WeChat</span>: ZhuoyueMobility</span>
+      <span><span data-i18n="footer.address">Address</span>: 123 Example Rd, Shanghai</span>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/rent.js"></script>
+</body>
+</html>
