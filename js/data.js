@@ -9,7 +9,8 @@ const VEHICLES = [
     priceMax: 650,
     availability: "Available",
     seats: 5,
-    rangeKm: 550,
+    rangeEn: "Up to 720 km CLTC",
+    rangeZh: "CLTC 最高 720 公里",
     photo: "images/li-auto-i6.jpg",
     featured: true
   },
@@ -21,7 +22,8 @@ const VEHICLES = [
     priceMax: 800,
     availability: "Available",
     seats: 6,
-    rangeKm: 560,
+    rangeEn: "Up to 720 km CLTC",
+    rangeZh: "CLTC 最高 720 公里",
     photo: "images/li-auto-i8.jpg",
     featured: false
   },
@@ -33,7 +35,8 @@ const VEHICLES = [
     priceMax: 500,
     availability: "Booked",
     seats: 5,
-    rangeKm: 210,
+    rangeEn: "210 km EV · 1,315 km combined CLTC",
+    rangeZh: "纯电 210 公里 · 综合 1,315 公里 CLTC",
     photo: "images/li-auto-l7.jpg",
     featured: true
   },
@@ -45,7 +48,8 @@ const VEHICLES = [
     priceMax: 550,
     availability: "Available",
     seats: 5,
-    rangeKm: 800,
+    rangeEn: "800 km CLTC",
+    rangeZh: "CLTC 800 公里",
     photo: "images/xiaomi-su7-max.jpg",
     featured: true
   },
@@ -57,7 +61,8 @@ const VEHICLES = [
     priceMax: 550,
     availability: "Available",
     seats: 5,
-    rangeKm: 760,
+    rangeEn: "Up to 835 km CLTC",
+    rangeZh: "CLTC 最高 835 公里",
     photo: "images/xiaomi-yu7.jpg",
     featured: false
   },
@@ -69,7 +74,8 @@ const VEHICLES = [
     priceMax: 400,
     availability: "Available",
     seats: 5,
-    rangeKm: 640,
+    rangeEn: "Up to 825 km CLTC",
+    rangeZh: "CLTC 最高 825 公里",
     photo: "images/zeekr-007gt.jpg",
     featured: false
   },
@@ -81,7 +87,8 @@ const VEHICLES = [
     priceMax: 600,
     availability: "Maintenance",
     seats: 6,
-    rangeKm: 590,
+    rangeEn: "Up to 605 km CLTC",
+    rangeZh: "CLTC 最高 605 公里",
     photo: "images/onvo-l90.jpg",
     featured: false
   }

@@ -23,6 +23,7 @@ function availabilityKey(availability) {
 function renderCarCard(vehicle, withRentLink) {
   const availKey = availabilityKey(vehicle.availability);
   const typeLabel = t(vehicle.type === "SUV" ? "type.suv" : "type.sedan");
+  const rangeLabel = getCurrentLang() === "zh" ? vehicle.rangeZh : vehicle.rangeEn;
   const rentButton = withRentLink
     ? `<a class="btn btn-primary" href="rent.html?vehicle=${encodeURIComponent(vehicle.id)}" data-i18n="cars.rentBtn">${t("cars.rentBtn")}</a>`
     : "";
@@ -38,7 +39,7 @@ function renderCarCard(vehicle, withRentLink) {
         <div class="car-meta">
           <span>${typeLabel}</span>
           <span>${vehicle.seats} ${t("cars.seats")}</span>
-          <span>${vehicle.rangeKm} ${t("cars.rangeUnit")}</span>
+          <span>${rangeLabel}</span>
         </div>
         <div class="car-price">¥${vehicle.priceMin}–${vehicle.priceMax} ${t("cars.perDay")}</div>
         ${withRentLink ? `<div class="car-actions">${rentButton}</div>` : ""}
