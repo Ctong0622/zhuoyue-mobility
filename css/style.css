@@ -216,15 +216,15 @@ img {
 
 .car-photo {
   height: 160px;
+  overflow: hidden;
   background: linear-gradient(135deg, #dff3ec, #d7e6fb);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-primary-dark);
-  font-weight: 600;
-  font-size: 1.05rem;
-  text-align: center;
-  padding: 10px;
+}
+
+.car-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .car-body {
@@ -402,6 +402,45 @@ img {
 
 .form-status.error {
   color: var(--color-danger);
+}
+
+/* Contact Information (Rent / Contact page) */
+
+.contact-info {
+  max-width: 640px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.contact-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-item .label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.contact-item .value {
+  font-size: 1rem;
 }
 
 /* Footer */

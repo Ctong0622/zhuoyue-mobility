@@ -20,7 +20,7 @@ function populateVehicleSelect() {
 
   const placeholder = `<option value="" data-i18n="rent.selectVehiclePlaceholder">${t("rent.selectVehiclePlaceholder")}</option>`;
   const options = VEHICLES.map(
-    (v) => `<option value="${v.id}">${v.model} — ¥${v.pricePerDay}${t("cars.perDay")}</option>`
+    (v) => `<option value="${v.id}">${v.model} — ¥${v.priceMin}–${v.priceMax}${t("cars.perDay")}</option>`
   ).join("");
 
   select.innerHTML = placeholder + options;

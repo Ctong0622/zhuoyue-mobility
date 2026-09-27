@@ -52,6 +52,14 @@ const TRANSLATIONS = {
     "rent.success": "Thank you! Your rental request has been sent. We will contact you shortly.",
     "rent.error": "Something went wrong. Please check the form and try again.",
 
+    "contact.title": "Contact Information",
+    "contact.wechatLabel": "WeChat",
+    "contact.wechatValue": "Lyjtzk1234 / zycx66668",
+    "contact.hoursLabel": "Business Hours",
+    "contact.hoursValue": "10:00 AM – 10:00 PM",
+    "contact.addressLabel": "Address",
+    "contact.addressValue": "Building 15, Houhai Industrial Area, Nanshan District, Shenzhen",
+
     "footer.phone": "Phone",
     "footer.wechat": "WeChat",
     "footer.address": "Address"
@@ -107,6 +115,14 @@ const TRANSLATIONS = {
     "rent.note": "提交后，卓越出行将通过电话联系您，并使用微信确认租车信息。",
     "rent.success": "感谢您的申请！我们已收到您的租车请求，将尽快与您联系。",
     "rent.error": "提交时出现问题，请检查表单后重试。",
+
+    "contact.title": "联系方式",
+    "contact.wechatLabel": "微信",
+    "contact.wechatValue": "Lyjtzk1234 / zycx66668",
+    "contact.hoursLabel": "营业时间",
+    "contact.hoursValue": "10:00 – 22:00",
+    "contact.addressLabel": "地址",
+    "contact.addressValue": "深圳市南山区后海工业区15栋",
 
     "footer.phone": "电话",
     "footer.wechat": "微信",

@@ -29,7 +29,9 @@ function renderCarCard(vehicle, withRentLink) {
 
   return `
     <article class="car-card">
-      <div class="car-photo">${vehicle.model}</div>
+      <div class="car-photo">
+        <img src="${vehicle.photo}" alt="${vehicle.model}" loading="lazy" />
+      </div>
       <div class="car-body">
         <h3 class="car-model">${vehicle.model}</h3>
         <span class="availability ${availKey}">${t("availability." + availKey)}</span>
@@ -38,7 +40,7 @@ function renderCarCard(vehicle, withRentLink) {
           <span>${vehicle.seats} ${t("cars.seats")}</span>
           <span>${vehicle.rangeKm} ${t("cars.rangeUnit")}</span>
         </div>
-        <div class="car-price">¥${vehicle.pricePerDay} ${t("cars.perDay")}</div>
+        <div class="car-price">¥${vehicle.priceMin}–${vehicle.priceMax} ${t("cars.perDay")}</div>
         ${withRentLink ? `<div class="car-actions">${rentButton}</div>` : ""}
       </div>
     </article>
