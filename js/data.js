@@ -12,7 +12,7 @@ const VEHICLES = [
     rangeEn: "Up to 720 km CLTC",
     rangeZh: "CLTC 最高 720 公里",
     photo: "images/li-auto-i6.jpg",
-    featured: true
+    featured: false
   },
   {
     id: "li-i8",
@@ -25,7 +25,7 @@ const VEHICLES = [
     rangeEn: "Up to 720 km CLTC",
     rangeZh: "CLTC 最高 720 公里",
     photo: "images/li-auto-i8.jpg",
-    featured: false
+    featured: true
   },
   {
     id: "li-l7",
@@ -77,7 +77,7 @@ const VEHICLES = [
     rangeEn: "Up to 825 km CLTC",
     rangeZh: "CLTC 最高 825 公里",
     photo: "images/zeekr-007gt.jpg",
-    featured: false
+    featured: true
   },
   {
     id: "onvo-l90",

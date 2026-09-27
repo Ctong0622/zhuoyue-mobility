@@ -43,6 +43,25 @@ img {
   padding: 0 20px;
 }
 
+/* Top contact bar */
+
+.top-contact-bar {
+  background: var(--color-primary-dark);
+  color: #eafaf3;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+}
+
+.top-contact-bar-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 /* Header / Nav */
 
 .site-header {
@@ -463,6 +482,11 @@ img {
 /* Responsive */
 
 @media (max-width: 640px) {
+  .top-contact-bar-inner {
+    gap: 8px 16px;
+    font-size: 0.8rem;
+  }
+
   .nav {
     flex-wrap: wrap;
     gap: 10px;
