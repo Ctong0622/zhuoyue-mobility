@@ -26,3 +26,9 @@ For the Price Filter feature, my AI agent gave me these three implementation opt
 3. Range slider
 
 I chose Option 1, the dropdown with preset price ranges, because it is the simplest beginner-friendly option, works well on mobile, fits the existing JavaScript structure of the site, and does not require additional libraries.
+
+## Website Improvement After Client Review
+
+After reviewing the site with Liming, I made a small usability improvement to make the vehicle price and availability information easier for customers to scan. The price and availability are now displayed together more clearly on the vehicle cards. This wasn't something Liming specifically asked for — he was already satisfied with the website — but it was a small improvement I decided to make after going through the site with him again.
+
+Commit: https://github.com/Ctong0622/zhuoyue-mobility/commit/bdaa980cd3e080bdfc9e9eb51925c1b7698683e8
