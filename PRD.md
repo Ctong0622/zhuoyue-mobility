@@ -142,3 +142,11 @@ Manually maintained JSON entries, one per vehicle:
 - Final hero image/copy, "Why Choose Us" icon designs and supporting sentences.
 - Full vehicle roster with confirmed prices, photos, seats, and range for each model.
 - Chinese translations for all copy and vehicle data.
+
+## Later
+
+Liming was very satisfied with the current website and did not request a specific priority order for future features. I organized the remaining improvements in this order based on how useful they would be to the customer rental process.
+
+1. **Price Filter** — Allow customers to filter vehicles by rental price range so they can find cars that fit their budget more easily.
+2. **More Vehicle Photos** — Add multiple exterior and interior photos for each vehicle so customers can better understand the vehicle before submitting a rental request.
+3. **Customer Reviews** — Add a customer review section to provide feedback from previous renters and increase trust.

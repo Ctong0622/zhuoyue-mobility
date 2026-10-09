@@ -35,13 +35,15 @@ function renderCarCard(vehicle, withRentLink) {
       </div>
       <div class="car-body">
         <h3 class="car-model">${vehicle.model}</h3>
-        <span class="availability ${availKey}">${t("availability." + availKey)}</span>
+        <div class="car-status-row">
+          <div class="car-price">¥${vehicle.priceMin}–${vehicle.priceMax} ${t("cars.perDay")}</div>
+          <span class="availability ${availKey}">${t("availability." + availKey)}</span>
+        </div>
         <div class="car-meta">
           <span>${typeLabel}</span>
           <span>${vehicle.seats} ${t("cars.seats")}</span>
           <span>${rangeLabel}</span>
         </div>
-        <div class="car-price">¥${vehicle.priceMin}–${vehicle.priceMax} ${t("cars.perDay")}</div>
         ${withRentLink ? `<div class="car-actions">${rentButton}</div>` : ""}
       </div>
     </article>
